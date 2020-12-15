@@ -84,4 +84,27 @@ h3 {
 }
 
 /*Header*/
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myname {
+  float: left;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+ display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+}
+
+.nav li {
+  display: inline-block;
+}
 
