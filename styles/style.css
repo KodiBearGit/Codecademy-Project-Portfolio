@@ -59,9 +59,12 @@
 }
 
 /*Universal*/
-html,
-body {
+html {
+  scroll-padding-top: 4rem;
   font-size: 16px;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
@@ -94,10 +97,7 @@ h3 {
   top: 0;
   z-index: 5;
   height: 4rem;
-}
-
-.myname {
-
+  background-color: mintcream;
 }
 
 .nav {
@@ -122,4 +122,22 @@ h3 {
 main {
   position: relative;
   top: 4rem;
+}
+
+#about {
+  background-image: url("https://images.unsplash.com/photo-1546180055-761f3f495b3c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-between;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.about-container img {
+  width: 50%;
 }
