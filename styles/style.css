@@ -165,6 +165,13 @@ main {
 
 /*Projects*/
 
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  height: 2rem;
+}
 /*Skills*/
 
 /*Footer*/
