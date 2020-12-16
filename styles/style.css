@@ -83,12 +83,16 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  background-color: rgba(3, 80, 143, 0.486);
 }
 
 h3 {
   font-size: 1.5rem;
 }
 
+p {
+  line-height: 1.4rem;
+}
 /*Header*/
 #header {
   display: flex;
@@ -125,6 +129,14 @@ main {
   top: 4rem;
 }
 
+#about h2 {
+  margin-bottom: 0px;
+}
+
+#about p {
+  text-indent: 1.3rem;
+}
+
 .about-container {
   display: flex;
   align-items: center;
@@ -151,6 +163,9 @@ main {
   height: 20rem;
 }
 
+/*Projects*/
+
+/*Skills*/
 
 /*Footer*/
 footer {
