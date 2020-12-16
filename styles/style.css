@@ -172,6 +172,10 @@ table, th, td {
 th, td {
   height: 2rem;
 }
+
+.odd {
+  background-color: rgba(13, 133, 231, 0.2);
+}
 /*Skills*/
 
 /*Footer*/
