@@ -79,19 +79,25 @@ h3 {
 h1 {
   font-size: 2.5rem;
   margin: 0;
+  padding-left: 2rem;
 }
 
 h2 {
   font-size: 2rem;
   background-color: rgba(3, 80, 143, 0.486);
+  border-top: 0.0625rem solid black;
+  border-bottom: 0.0625rem solid black;
+  padding-left: 0.5rem;
 }
 
 h3 {
   font-size: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 p {
   line-height: 1.4rem;
+  padding-left: 0.5rem;
 }
 /*Header*/
 #header {
@@ -164,18 +170,31 @@ main {
 }
 
 /*Projects*/
+.projects-container h2 {
+  margin-top: 0.25rem;
+}
+
+table {
+  margin-left: 0.5rem;
+}
 
 table, th, td {
-  border: 1px solid black;
+  border: 0.0625rem solid black;
 }
 
 th, td {
   height: 2rem;
 }
 
+th span {
+  font-weight: 400;
+}
+
 .odd {
   background-color: rgba(13, 133, 231, 0.2);
 }
+
+
 /*Skills*/
 
 /*Footer*/
@@ -187,4 +206,9 @@ footer {
   display: flex;
   justify-content: end;
   align-items: end;
+  border-top: 0.0625rem solid black;
+}
+
+footer p {
+  padding-right: 1rem;
 }
