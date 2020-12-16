@@ -190,6 +190,22 @@ th span {
   font-weight: 400;
 }
 
+td {
+  font-size: 0.9rem;
+}
+
+.column-one {
+  width: 30%;
+}
+
+.column-two {
+  width: 15%;
+}
+
+.column-three {
+  width: 55%;
+}
+
 .odd {
   background-color: rgba(13, 133, 231, 0.2);
 }
@@ -211,4 +227,5 @@ footer {
 
 footer p {
   padding-right: 1rem;
+  color: rgba(3, 80, 143, 0.767);
 }
