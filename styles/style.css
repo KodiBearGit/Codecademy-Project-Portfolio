@@ -164,14 +164,15 @@ main {
   display: flex;
   flex-flow: column;
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  max-height: 30rem;
   overflow: hidden;
   background-color: rgba(13, 133, 231, 0.2);
 }
 
  #scenic-image {
   width: 100%;
-  heigh: auto;
+  height: auto;
   display: block;
 } 
 

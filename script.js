@@ -2,7 +2,7 @@
 const scenicPicUrls = [
 "https://images.unsplash.com/photo-1546180055-761f3f495b3c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
 "https://images.unsplash.com/photo-1606925207923-c580f25966b0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-"https://images.unsplash.com/photo-1514429059824-3c6fa0808fe6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+"https://images.unsplash.com/photo-1488818138649-d2734488e6d0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80",
 "https://images.unsplash.com/photo-1606162490200-212b6bb8e371?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2OXxibzhqUUtUYUUwWXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 ];
 
@@ -10,7 +10,7 @@ const scenicPicUrls = [
 const scenicPicAlts = [
   "picture of snow cap mountains, pale blue sky and distant moon",
   "picture of blue ocean near shore",
-  "picture of orange and purple sky and lake with  mtns mountains between",
+  "snowy mountain photo",
   "close up image of water rippling"
 ];
 
@@ -29,7 +29,7 @@ let changeImageURL = function() {
     newIndex = ranNum;
     //console.log(ranNum);
   } while (newIndex === currentIndex);
-  //console.log(newIndex);
+  console.log(newIndex);
   document.getElementById('scenic-image').src = scenicPicUrls[newIndex];
   document.getElementById('scenic-image').alt = scenicPicAlts[newIndex];
 };
