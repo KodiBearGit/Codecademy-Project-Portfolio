@@ -99,6 +99,7 @@ p {
   line-height: 1.4rem;
   padding-left: 0.5rem;
 }
+
 /*Header*/
 #header {
   display: flex;
@@ -248,5 +249,5 @@ footer p {
 
 /*Contact-Page*/
 .contact-page-text {
-  
+  text-indent: 1.3rem;
 }
