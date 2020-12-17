@@ -43,7 +43,7 @@ List of features/ojectives (items below requested/suggested to be in final proje
 
 ## Status
 
-Project is: In Progress
+Project is: Essentially Complete. Wuld need to adjust email and add picture of self (you get Kodi for now!) to use for real.  Additionally this I will continue to add projects to this page as I complete more.  The contact page exsist but I dont much care for it perhaps it could be improved at a later date.  
 
 ## Inspiration
 
