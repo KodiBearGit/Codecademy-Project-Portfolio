@@ -29,7 +29,8 @@ Project Requirements
 
 ## Launch
 
-open index.html file in browser
+https://kodibeargit.github.io/Codecademy-Project-Portfolio/
+or open index.html file in browser
 
 ## Features
 
